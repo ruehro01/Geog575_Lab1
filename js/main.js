@@ -59,8 +59,7 @@ function pointToLayer(feature, latlng, attributes){
 
     //bind the popup to the circle marker
     layer.bindPopup(popupContent, {
-        offset: new L.Point(0,-options.radius),
-        closeButton: false 
+        
     });
     //event listeners to open popup on hover and fill panel on click
     layer.on({
